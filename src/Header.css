@@ -1,0 +1,75 @@
+.header{
+    height: auto;
+    display: flex;
+    /* background-color: rgb(14, 12, 12); */
+    position:sticky;
+    align-items: center;
+    padding: 0 7%;
+    z-index: 100;
+    top:0;
+}
+.header_img{
+    width: 60px;
+    margin:8px 14px 5px 5px;
+    /* margin-top: 8px; */
+    object-fit: contain;
+}
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header_searchInput{
+    height: 21px;
+    padding: 5px;
+    width: 100%;
+    border-top:3px solid #cd9042;
+    border-left:3px solid #cd9042;
+    border-bottom:3px solid #cd9042;
+    border-right:none ;
+    
+}
+
+.header_searchIcon{
+    color: purple;
+    border-left:none ;
+    border-top:3px solid #cd9042 ;
+    border-right:3px solid #cd9042;
+    border-bottom:3px solid #cd9042;
+    background-color:#fff;
+    padding : 5px;
+    height: 21px !important;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.header_nav{
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-evenly;
+    }
+.header_optionLogin{
+    padding: 10px;
+    font-weight: 700;
+    color: cornsilk;
+}
+.header_optionSell{
+    padding: 5px;
+    border-width: 6px;
+    border-style: inset;
+    border-radius: 20px !important;
+    border-color: cyan cyan yellow red  ;
+    font-weight: 700;
+}
+
+#oo{
+    font-size: 15px;
+    padding: 3px;
+}
