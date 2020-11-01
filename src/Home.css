@@ -1,5 +1,5 @@
 .home_img1{
-    widows: 10px;
+    /* widows: px; */
     height: auto;
-    /* object-fit: contain; */
+    object-fit: scale-down  ;
 }

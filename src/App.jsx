@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Descrip from './Descrip';
 import Header from './Header';
 import Home from './Home';
 import Nav from './Nav';
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <Nav />
-      <Home />
+      <Descrip />
+      {/* <Home /> */}
     </div>
   );
 }
